@@ -15,5 +15,3 @@ exports.helloWorld = (req, res) => {
     res.status(200).send('Success: ' + req.body.message);
   }
 };
-// Sample comment
-// Making a comment via Atom to see how GitHub integration works.
