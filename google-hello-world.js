@@ -16,3 +16,4 @@ exports.helloWorld = (req, res) => {
   }
 };
 // Sample comment
+// Making a comment via Atom to see how GitHub integration works.
