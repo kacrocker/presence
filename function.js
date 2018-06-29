@@ -17,6 +17,6 @@ exports.helloWorld = (req, res) => {
     {
       "text": req.body.message
     }
-    res.status(200).send('Success: ' + req.body.message);
+    res.status(200).send('Success: ' + req.body.message + ' with a side of Slack');
   }
 };
