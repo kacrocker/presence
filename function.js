@@ -12,6 +12,11 @@ exports.helloWorld = (req, res) => {
   } else {
     // Everything is okay.
     console.log(req.body.message);
+    POST https://hooks.slack.com/services/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
+    Content-type: application/json
+    {
+      "text": req.body.message
+    }
     res.status(200).send('Success: ' + req.body.message);
   }
 };
