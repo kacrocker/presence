@@ -33,4 +33,3 @@ exports.helloWorld = (req, res) => {
     res.status(200).send('Success: ' + req.body.message + ' with a side of Slack');
   }
 };
-// Testing comment from Code Anywhere 
